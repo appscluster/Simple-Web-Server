@@ -25,6 +25,10 @@ See particularly the JSON-POST (using Boost.PropertyTree) and the GET /match/[nu
 
 Boost C++ libraries must be installed, go to http://www.boost.org for download and instructions. 
 
+wget http://sourceforge.net/projects/boost/files/boost/1.57.0/boost_1_57_0.tar.bz2
+
+tar --bzip2 -xf boost_1_57_0.tar.bz2
+
 For HTTPS: OpenSSL libraries from https://www.openssl.org are required. 
 
 ### Compile and run

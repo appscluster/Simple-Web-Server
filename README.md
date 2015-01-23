@@ -43,6 +43,9 @@ Note: added -lboost_thread to make the json-example thread safe. On some systems
 
 g++ -O3 -std=c++11 http_examples.cpp -lboost_system -lboost_thread -o http_examples
 
+On Linux
+g++ -O3 -I /path/to/boost_1_57_0 -std=c++0x http_examples.cpp -lboost_system -lboost_thread -o http_examples
+
 Then to run the server and client examples: ./http_examples
 
 Also, direct your favorite browser to for instance http://localhost:8080/
